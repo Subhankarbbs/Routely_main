@@ -12,13 +12,13 @@ const LoginE = () => {
           <h1 class="text-4xl font-bold pb-5">Sign In</h1>
           <form action="" class="w-full space-y-4 text-left">
             <div>
-              <label for="email">Email</label>
+              <label htmlFor="email">Email</label>
               <input id="email"
                 class="w-full px-3 py-2 mt-1 border-2 border-teal-400 rounded-xl bg-transparent focus:outline-none focus:ring-2 focus:ring-teal-30"
                 placeholder="Enter your Email" />
             </div>
             <div>
-              <label for="password">Password</label>
+              <label htmlFor="password">Password</label>
               <input id="password"
                 class="w-full px-3 py-2 mt-1 border-2 border-teal-400 rounded-xl bg-transparent focus:outline-none focus:ring-2 focus:ring-teal-30"
                 type="password" name="password" />
